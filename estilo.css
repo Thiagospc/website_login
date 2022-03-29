@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg, black, rgb(107, 100, 237));
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(58, 58, 58);
+    border-radius: 30px;
+    padding: 50px;
+    display: block;
+
+}
+
+#email{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+#senha{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.entrar{
+    padding: 10px;
+    width: 80%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(45deg, black, rgb(107, 100, 237));
+	cursor: pointer;
+}
+
+
+.linkar_{
+    color: white;
+    display: block;
+    text-align: right;
+}
+.linkar_:hover{
+    color: red;
+}
+ 
